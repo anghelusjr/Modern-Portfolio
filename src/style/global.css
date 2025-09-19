@@ -1,0 +1,93 @@
+:root {
+
+  /*Typography*/
+  --headings-title: "Bona Nova SC", serif;
+  --headings-weight-700: 700;
+  --headings-weight-400: 400;
+  --headings-italic: italic;
+  --text-content: "Roboto", sans-serif;
+
+  /* Font Settings */
+  --headings-h1-size: clamp(2rem, 3vw, 6rem);
+  --headings-h2-size: clamp(1.7rem, 2vw, 4rem);
+  --headings-h3-size: clamp(1.5rem, 1.5vw, 3rem);
+  --font-normal: 1.2rem;
+  --line-height: 1.5;
+
+  /* Global color */
+  --color-primary: #0e0e0e;
+  --color-secondary: #191615;
+  --color-secondary-raw: 25, 22, 21;
+  --color-raw: 44, 40, 37;
+  --color-hue1: #e0c8a8;
+  --color-hue2: #dac5a6;
+
+  /* Global Padding & spacing */
+  --spacing-desktop: 10rem;
+  --spacing-tablet: 4rem;
+  --spacing-mobile-width: 2rem;
+  --spacing-mobile-height: 4rem;
+
+  /* Container padding */
+  --container-padding-desktop: 2rem;
+  --container-padding-tablet: 1.5rem;
+  --container-padding-tablet: 1rem;
+
+  /*General padding & spacing*/
+  --space-sm: 0.25rem;
+  --space-md: 0.5rem;
+  --space-lg: 1rem;
+}
+
+/* Hero Slogan*/
+.custom-hero-slogan {
+  font-size: clamp(2.5rem, 7vw, 10rem);
+}
+
+h1 {
+  font-size: var(--headings-h1-size);
+}
+
+h2 {
+  font-size: var(--headings-h2-size);
+}
+h3{
+  font-size: var(--headings-h3-size);
+}
+
+
+/* Screen Devices */
+
+@media (width <=768px) {
+  .custom-global-padding {
+    padding: var(--spacing-mobile-height) var(--spacing-mobile-width);
+  }
+
+  .display {
+    left: -100%;
+  }
+}
+
+@media (769px <=width <=1024px) {
+  .custom-global-padding {
+    padding: var(--spacing-tablet);
+  }
+
+  .display {
+    left: -100%;
+  }
+}
+
+@media (width >=1025px) {
+  .custom-global-padding {
+    padding: var(--spacing-desktop);
+  }
+
+  .display {
+    left: 0px;
+  }
+
+  .hide-in-mobile {
+    display: none;
+  }
+}

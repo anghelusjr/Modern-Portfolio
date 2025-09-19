@@ -1,0 +1,13 @@
+
+body{
+  font-family: var(--text-content);
+  font-size: var(--font-normal) ;
+  line-height: var(--line-height);
+  font-family: var(--text-content);
+  color: var(--color-hue1);
+}
+
+main{
+   background-color: var(--color-primary);
+}
+
