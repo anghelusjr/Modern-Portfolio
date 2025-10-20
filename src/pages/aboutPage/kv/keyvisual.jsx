@@ -1,5 +1,5 @@
 import AngelPhoto from '../../../assets/angel-buenavista-about-key-visual.webp'
-import Phone from '../../../assets/about/Phone.webp'
+import Phone from '../../../assets/about/phone.webp'
 import {WebLottie} from '../../../components/lottie/webDesignAnimation'
 
 
