@@ -1,0 +1,4 @@
+export {default as HomePage } from "../homePage/home"
+export {default as AboutPage} from "../aboutPage/about"
+export {default as ProjectsPage} from "../projectPage/projects"
+export {default as ContactPage} from "../contactPage/contact"
