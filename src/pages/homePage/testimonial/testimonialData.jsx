@@ -1,5 +1,11 @@
 export const testimonialData = [
   {
+    name: "Muñoz Jerwin",
+    description:
+      "Working with Angel Buenavista has been an exceptional experience. His creativity, attention to detail, and strong grasp of modern web design principles consistently bring our projects to life. Angel has a great sense of balance between aesthetics and functionality — ensuring every website he designs not only looks stunning but also delivers a seamless user experience. Highly recommended for anyone looking for a designer who can translate ideas into visually engaging and effective web designs.",
+    relation: "Supervisor",
+  },
+  {
     name: "Calope Jason",
     description:
       "I had the pleasure of working with Angel as my teammate for almost four years. He’s a great person to work with—friendly, reliable, and very detail-oriented. One thing that really stands out about him is his strong focus on accuracy and clarity. Whenever there’s a missing or confusing detail in a project, he never hesitates to ask questions to make sure everything is clear. He also consistently shares any issues or challenges he encounters so that the rest of the team can avoid the same problems. Overall, Angel is a thoughtful and dedicated web designer who truly cares about the quality of his work and the success of the team.",

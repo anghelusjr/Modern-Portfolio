@@ -104,14 +104,14 @@ export function KeyVisual() {
             
             ">
               <WebLottie/>
-              <h2 className='text-3xl text-gray-900 text-shadow-2xs xl:leading-15 z-10'>
+              <h2 className='text-3xl text-gray-900 text-shadow-2xs xl:leading-10 z-10'>
                 A <em>Filipino <br/><strong className='xl:text-5xl text-gray-900'>Website Designer</strong></em>
               </h2>
             </div>
-            <div className="flex items-center xl:gap-10 basis-7xl bg-gray-700 grow-2 rounded-2xl xl:p-4
+            <div className="flex items-start xl:gap-10 basis-7xl bg-gray-700 grow-2 rounded-2xl xl:p-4
             ">
               <p className='text-3xl text-gray-100'>
-                building user-friendly and easy-to-navigate websites
+                Building user-friendly and easy-to-navigate websites
               </p>
             </div>
           </div>
