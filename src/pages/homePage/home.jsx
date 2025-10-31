@@ -6,7 +6,6 @@ import { Hero } from "./hero/hero";
 
 function Home() {
 
-
   return (
     <>
       <header>

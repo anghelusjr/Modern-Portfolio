@@ -12,11 +12,14 @@ import * as Pages from './pages/exportPages/importedPages'
 function App() {
   const sidebar = useRef(null)
   const [isToggle, setIsToggle] = useState(false);
-  const loading = useLoadingScreen(1000);
 
-  if(loading){
+  const loading = useLoadingScreen();
+
+  if (loading) {
     return <LoadingScreen />
   }
+
+
 
   return (
     <>
