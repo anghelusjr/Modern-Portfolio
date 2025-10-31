@@ -13,7 +13,7 @@ function App() {
   const sidebar = useRef(null)
   const [isToggle, setIsToggle] = useState(false);
 
-  const loading = useLoadingScreen(1200);
+  const loading = useLoadingScreen(1100);
 
   if (loading) {
     return <LoadingScreen />
