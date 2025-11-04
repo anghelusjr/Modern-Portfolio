@@ -10,7 +10,7 @@ export function SidebarProfileTabletDesktop(props, ref) {
   return (
     <aside ref={ref}
       className="hidden xl:block w-60 pt-8 absolute lg:left-0 top-0 bottom-0 
-      z-9999 overflow-hidden justify-center items-start bg-gray-900/70
+      z-9999 overflow-hidden justify-center items-start bg-gray-800
       ">
       <nav className='relative h-screen '>
         <div className='flex justify-center items-center pb-10'>

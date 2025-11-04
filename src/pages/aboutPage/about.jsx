@@ -22,7 +22,7 @@ function AboutPage() {
         <meta name="description" content="Learn more about Angel Buenavista, a passionate web designer from Taguig, Philippines. Discover my journey, design philosophy, and how I help brands build professional and creative online experiences." />
       </header>
       <KeyVisual />
-      <GridContainer
+      {/* <GridContainer
         as='article'
         padding='custom'
         overflow='custom'
@@ -307,7 +307,7 @@ function AboutPage() {
             © 2025 Angel Buenavista — Web Designer
           </p>
         </footer>
-      </GridContainer >
+      </GridContainer > */}
     </>
 
   )

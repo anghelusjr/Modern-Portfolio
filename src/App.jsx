@@ -23,15 +23,15 @@ function App() {
 
   return (
     <>
+      <BurgerIcon
+        sidebar={sidebar}
+        isToggle={isToggle}
+        setIsToggle={setIsToggle} />
       <SidebarProfileTabletDesktop />
       <SidebarTabletDesktop ref={sidebar} />
-      <div className="relative h-dvh overflow-x-hidden">
-        <SidebarMobile ref={sidebar} />
-
-        <BurgerIcon
-          sidebar={sidebar}
-          isToggle={isToggle}
-          setIsToggle={setIsToggle} />
+      <SidebarMobile ref={sidebar} />
+      <div className="h-dvh overflow-x-hidden">
+        
         <main>
           <Routes>
             <Route index element={<Pages.HomePage />} dispaly="Angel Buenavista" />

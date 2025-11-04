@@ -6,7 +6,7 @@ export function SidebarMobile(){
 
     return (
     <aside 
-      className="sm:hidden absolute -top-80 left-1/2 -translate-x-1/2 
+      className="sm:hidden fixed -top-80 left-1/2 -translate-x-1/2 
       h-100 w-100 z-9999 overflow-hidden flex justify-center items-start rounded-full
       bg-gradient-to-r from-gray-950 via-gray-500 to-gray-950
       ">

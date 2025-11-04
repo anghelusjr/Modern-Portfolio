@@ -5,6 +5,6 @@ export function WebLottie() {
   return <Lottie 
   animationData={WebDesign}
    loop={true}
-   className="absolute xl:w-60 xl:-top-10 right-0 bg-transparent z-0" 
+   className="absolute xl:w-60 -top-16 xl:-top-10 right-0 bg-transparent z-0" 
    />;
 }
