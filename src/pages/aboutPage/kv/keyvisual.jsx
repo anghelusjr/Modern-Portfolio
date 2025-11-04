@@ -53,7 +53,7 @@ export function KeyVisual() {
                 <div className='relative h-95 w-100 xl:w-150 xl:h-150 
                 xl:-m-50 rounded-b-full overflow-hidden'>
                   <img
-                    className='absolute z-50 w-170 -right-25 top-20 xl:top-50 xl:bottom-20'
+                    className='absolute z-50 w-170 -right-25 top-20 xl:-right-40 xl:top-50 xl:bottom-20'
                     src={Phone}
                     alt="Phone design" />
                   <img src={AngelPhoto} draggable="false"
