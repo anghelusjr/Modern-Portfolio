@@ -29,7 +29,7 @@ export function KeyVisual() {
           </div>
         </section>
         <section className="flex flex-col xl:grow-3">
-          <div className="flex items-center xl:items-center flex-col xl:flex-row xl:-mt-4">
+          <div className="flex items-center xl:items-center flex-col xl:flex-row xl:-mt-4 xl:ml-7">
             <div className="flex w-full xl:h-full sm:mx-6 sm:mt-3 sm:gap-3
             sm:items-center xl:p-0 xl:gap-2 xl:m-0 flex-col grow-6">
               <div className="flex items-center sm:w-full sm:mx-2 gap-4 flex-col 
