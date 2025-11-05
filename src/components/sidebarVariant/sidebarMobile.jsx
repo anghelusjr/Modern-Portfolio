@@ -2,7 +2,7 @@ import { NavIconLink } from '../icons/navIconLink'
 import * as Icons from './importedIcons'
 
 export function SidebarMobile(){
-  const tailUtil = "w-7 h-7 sm:w-8 sm:h-8 text-white hover:text-purple-400 active:text-black py-10 text-shadow-lg";
+  const tailUtil = "w-7 h-7 sm:w-8 sm:h-8 text-white hover:text-gray-400 active:text-black py-10 text-shadow-lg";
 
     return (
     <aside 
