@@ -31,7 +31,7 @@ export default function ContactForm() {
                 Get in <span className="text-gray-400">Touch</span>
             </h2>
             <p className="text-gray-600 text-center max-w-lg mb-10">
-                Got an idea or a project in mind? Let’s bring it to life together. 
+                Got an idea or a project in mind? Let’s bring it to life together.
                 Whether it’s design, development, or just a quick hello — drop me a message!
             </p>
 
@@ -43,6 +43,12 @@ export default function ContactForm() {
                     type="hidden"
                     name="access_key"
                     value="bf20f628-dc77-4930-ba66-c8c4cc1f77cf"
+                />
+
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="New Message from Angel Buenavista Portfolio"
                 />
 
                 <input
