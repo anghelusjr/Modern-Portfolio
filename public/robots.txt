@@ -1,0 +1,17 @@
+# ==============================
+# React Website robots.txt
+# ==============================
+
+# 1. Allow all crawlers full access
+User-agent: *
+Disallow:
+
+# 2. OPTIONAL: Block specific folders (uncomment if you have these folders)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /config/
+# Disallow: /assets/
+
+# 3. Sitemap location
+Sitemap: https://angelbuenavista.com/sitemap.xml
