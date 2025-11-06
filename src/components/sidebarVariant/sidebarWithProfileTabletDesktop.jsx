@@ -51,7 +51,7 @@ export function SidebarProfileTabletDesktop(props, ref) {
               }
             >
               <div className="flex gap-2 justify-center items-center">
-                <Icons.UserCircleIcon width="40" />
+                <Icons.DocumentTextIcon width="40" />
                 Learn about me
               </div>
             </NavLink>
@@ -69,7 +69,7 @@ export function SidebarProfileTabletDesktop(props, ref) {
               }
             >
               <div className="flex gap-2 justify-center items-center">
-                <Icons.UserCircleIcon width="40" />
+                <Icons.BriefcaseIcon width="40" />
                 My Projects
               </div>
             </NavLink>
@@ -87,7 +87,7 @@ export function SidebarProfileTabletDesktop(props, ref) {
               }
             >
               <div className="flex gap-2 justify-center items-center">
-                <Icons.UserCircleIcon width="40" />
+                <Icons.EnvelopeIcon width="40" />
                 Get in Touch
               </div>
             </NavLink>
