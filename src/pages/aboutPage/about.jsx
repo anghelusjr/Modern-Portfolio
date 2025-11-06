@@ -22,19 +22,20 @@ function AboutPage() {
         <meta name="description" content="Learn more about Angel Buenavista, a passionate web designer from Taguig, Philippines. Discover my journey, design philosophy, and how I help brands build professional and creative online experiences." />
       </header>
       <KeyVisual />
-      {/* <GridContainer
+      <GridContainer
         as='article'
         padding='custom'
         overflow='custom'
         column='1'
         height='screen'
         backgroundColor='primary'
+        className='xl:ml-62 xl:p-10'
       >
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="h-full w-screen sm:h-[calc(100dvh-100px)] flex flex-col justify-end items-center border-b-8 sm:border-none border-violet-500 px-6 
+          className="xl:pl-60 h-full w-screen sm:h-[calc(100dvh-100px)] flex flex-col justify-end items-center border-b-8 sm:border-none border-violet-500 px-6 
         sm:bg-cover sm:bg-center sm:py-10 sm:bg-no-repeat sm:bg-fixed sm:bg-[url('/background-ring.webp')]">
 
           <motion.h1
@@ -307,7 +308,7 @@ function AboutPage() {
             © 2025 Angel Buenavista — Web Designer
           </p>
         </footer>
-      </GridContainer > */}
+      </GridContainer >
     </>
 
   )

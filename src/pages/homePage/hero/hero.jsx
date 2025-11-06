@@ -8,8 +8,8 @@ export function Hero() {
     <>
       <section
         className="bg-[url('/background-scene.webp')] h-screen bg-cover bg-center bg-fixed
-        flex flex-col items-center justify-center z-50 snap-center snap-always lg:pl-15 xl:pl-35
-        overflow-hidden
+        flex flex-col items-center justify-center z-50 snap-center snap-always lg:pl-15 xl:pl-60
+        overflow-hidden pt-50 xl:pt-20
         ">
         <motion.img
           initial={{ opacity: 0, y: -50 }}

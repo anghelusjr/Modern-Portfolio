@@ -12,7 +12,7 @@ export function Introduction() {
   return (
     <>
       <section
-        className="bg-white bg-[url('/intro-background.webp')] bg-center bg-cover
+        className="bg-white bg-[url('/intro-background.webp')] bg-center bg-cover xl:pl-8
          bg-fixed overflow-scroll overflow-x-hidden h-dvh w-dvw snap-center snap-always">
         <div className="bg-white/75 w-dvw">
           <div className="overflow-scroll overflow-x-hidden h-dvh sm:h-dvh px-5 sm:px-20 pt-23 xl:pl-60 xl:pt-10 flex flex-col items-center justify-start gap-5">

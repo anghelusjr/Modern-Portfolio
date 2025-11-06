@@ -12,8 +12,6 @@ export function Blogs() {
         </h2>
         <div className="grid grid-cols-1 max-w-full lg:grid-cols-2 2xl:grid-cols-3 sm:px-15 gap-10">
           <BlogCard />
-          <BlogCard />
-          <BlogCard />
         </div>
       </section>
     </>
