@@ -38,6 +38,7 @@ function App() {
             <Route path='/about' element={<Pages.AboutPage />} />
             <Route path='/projects' element={<Pages.ProjectsPage />} />
             <Route path='/contact' element={<Pages.ContactPage />} />
+            <Route path='/blogs' element={<Pages.BlogPage />} />
           </Routes>
         </main>
       </div>

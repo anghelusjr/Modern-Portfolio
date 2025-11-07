@@ -1,5 +1,5 @@
 import { Testimonials } from "./testimonial/testimonial";
-import { Blogs } from "./blog/blogs";
+import { Blogs } from "./blog/blogSection";
 import { Introduction } from "./introduction/intro";
 import { ProjectSection } from "./projectSection/projectSection";
 import { Hero } from "./hero/hero";

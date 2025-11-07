@@ -1,4 +1,5 @@
-import { BlogCard } from "./blogCard"
+import { BlogCard } from "../../blogPage/blogCardSection"
+
 
 
 export function Blogs() {
