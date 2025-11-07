@@ -15,7 +15,7 @@ export function KeyVisual() {
             <h1 className='text-xl xl:text-2xl text-gray-100 text-shadow-2xs leading-12'>
               <span className='text-5xl font-medium text-gray-300'> Discover </span>
               <br /><strong className='text-4xl xl:text-3xl text-white text-shadow-2xl'> Angel Buenavista </strong>
-              <br /><strong className='text-2xl xl:text-xl text-gray-400 uppercase '>A Website Designer </strong>
+              <br /><strong className='text-2xl xl:text-2xl text-gray-400 '>A Website Designer </strong>
               committed to creating visually stunning and responsive websites.</h1>
           </div>
           <div
@@ -156,8 +156,8 @@ export function KeyVisual() {
             px-4 max-w-2xl mx-2 xl:mx-0 xl:h-50
             ">
               <p className='text-3xl text-gray-100 leading-12'>
-                <span className='text-4xl text-gray-300 font-bold'>Building user-friendly</span>
-                <span className='text-2xl text-gray-100 font-thin'> and easy-to-navigate </span>
+                <span className='text-4xl text-gray-300 font-bold capitalize'>Expert in creating user-friendly</span>
+                <span className='text-2xl text-gray-100 font-thin capitalize'> and easy-to-navigate </span>
                 <span className='capitalize font-bold text-stone-100'>websites</span>
               </p>
             </div>
