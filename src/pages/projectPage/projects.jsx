@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 function ProjectsPage() {
@@ -46,19 +46,25 @@ function ProjectsPage() {
 
           <p>
             These projects represent the early stages of my journey as a web designer and developer.
-            They focus on mastering essential front-end skills — such as layout design, responsive
-            structure, and interactive user experiences — which became the foundation of my professional work today.
+            They focus on mastering essential front-end skills such as layout design, responsive
+            structure, and interactive user experiences which became the foundation of my professional work today.
           </p>
+
           <div>
             <iframe
               src="https://anghelusjr.github.io/project-learning-ecommerce/"
               title="E-commerce"
               className="bg-white/5 p-6 my-10 rounded-xl w-full h-150 shadow-md hover:shadow-lg transition">
             </iframe>
-            <p className="text-center">
-              A simple ecommerce website built with HTML, CSS, and JavaScript,
-              using a basic product database (JSON/local storage).
-            </p>
+            <div className="flex flex-col items-center gap-4">
+              <p className="text-center">
+                A simple ecommerce website built with HTML, CSS, and JavaScript,
+                using a basic product database (JSON/local storage).
+              </p>
+              <Link to="https://anghelusjr.github.io/project-learning-ecommerce/" target="_blank" rel="noopener noreferrer">
+                <button className="px-6 py-3 bg-gray-800 w-40 cursor-pointer text-gray-200 rounded-lg xl:mt-5">View Demo</button>
+              </Link>
+            </div>
           </div>
         </section>
       </article >

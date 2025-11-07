@@ -37,10 +37,18 @@ export function Introduction() {
                 whileInView={{ opacity: 1 }}
                 transition={{ type: "spring", stiffness: 100, delay: 0.8 }}
                 viewport={{ once: true, amount: 0.1 }}
-                className="text-xl md:text-xl text-shadow-2xs text-center leading-8 text-gray-700">
+                className="flex flex-col gap-4 text-xl md:text-xl text-shadow-2xs text-center leading-8 text-gray-700">
                 I design and build websites that look good and are easy to use. I work with WordPress, Duda 2.0, React, and Tailwind CSS to make websites for businesses and personal projects. I focus on creating websites that are fast, responsive, and professional. <br />
 
-                <Link to="/about" className="underline text-xl sm:leading-50 text-shadow-2xs text-gray-600 xl:pr-8">Read more about me</Link>
+                  <Link to="Angel-Buenavista-CV.pdf" target="_blank" rel="noopener noreferrer">
+                    <button className="px-6 py-2 bg-gray-800 w-50 cursor-pointer text-gray-200 rounded-lg xl:mt-5">
+                      Download CV
+                    </button>
+                  </Link>
+                  <Link to="/about" className="underline text-xl sm:leading-50 text-shadow-2xs text-gray-600">
+                      Read more about me
+                  </Link>
+
               </motion.p>
               <motion.div
                 initial={{ opacity: 0 }}
