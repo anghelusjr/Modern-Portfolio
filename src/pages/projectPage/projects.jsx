@@ -41,6 +41,12 @@ function ProjectsPage() {
 
         </section> */}
 
+        <img
+          src="/duda-certificate.webp"
+          alt="duda certificate"
+          className="w-150 h-auto my-10 rounded-lg shadow-lg"
+        />
+
         <section className="h-auto flex flex-col gap-4 mt-10 xl:mt-20 pl-4 max-w-3xl 2xl:max-w-4xl">
           <h2 className="text-4xl capitalize">Highlighted Works</h2>
 
