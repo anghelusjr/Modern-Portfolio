@@ -64,7 +64,7 @@ function ProjectsPage() {
             </iframe>
             <div className="flex flex-col items-center gap-4">
               <p className="text-center">
-                A simple ecommerce website built with HTML, CSS, and JavaScript,
+                A fully functional ecommerce website built with HTML, CSS, and JavaScript,
                 using a basic product database (JSON/local storage).
               </p>
               <Link to="https://anghelusjr.github.io/project-learning-ecommerce/" target="_blank" rel="noopener noreferrer">
