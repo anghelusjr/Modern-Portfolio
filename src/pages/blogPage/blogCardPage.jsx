@@ -4,7 +4,7 @@ import { blogData } from './blogData';
 export function BlogCardPage() {
     return (
         <>
-            <section className="h-auto flex flex-col gap-10 mt-10 xl:mt-20 pl-4 max-w-3xl 2xl:max-w-4xl">
+            <section className="h-100 flex flex-col gap-10 mt-10 xl:mt-20 pl-4 max-w-3xl 2xl:max-w-4xl">
                 {blogData.map((blog) => {
                     return (
                         <div
