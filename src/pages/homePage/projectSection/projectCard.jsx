@@ -12,17 +12,21 @@ export function ProjectCard() {
           <div key={index} className="w-full max-w-md h-auto p-4 border rounded-lg 
             bg-gradient-to-br from-white to-gray-50 bg-clip-border pb-10
             shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2 cursor-pointer">
-            <img
-              className="w-full shadow-md"
-              src={project}
-              alt="Card Project show off skills expertise"
-              loading="lazy" />
+            <div className="w-full h-80 overflow-hidden">
+              <img
+                className="w-full shadow-md"
+                src={project.projectImage}
+                alt="Card Project show off skills expertise"
+                loading="lazy" />
+            </div>
             <div className="overflow-hidden">
-              <h3 className="text-gray-600 font-medium text-2xl pt-6">Product Ecommerce</h3>
+              <h3 className="text-gray-600 font-medium text-2xl pt-6">
+                {project.projectHeading}
+              </h3>
               <p className="text-lg leading-7 text-gray-800">
-                I developed this e-commerce project with pure HTML, CSS, and JavaScript to strengthen my front-end skills without relying on any frameworks or external libraries.
+                {project.projectDescription}
               </p>
-              <div
+              {/* <div
                 className="xl:max-w-3xl flex pt-6 gap-4 xl:gap-4">
                 <span className=" h-6 w-6 transition-all duration-400 hover:-translate-y-2">
                   <img
@@ -39,7 +43,7 @@ export function ProjectCard() {
                     src={javascript}
                     alt="interactive website" />
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         )

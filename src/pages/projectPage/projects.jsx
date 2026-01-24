@@ -48,7 +48,7 @@ function ProjectsPage() {
         />
 
         <section className="h-auto flex flex-col gap-4 mt-10 xl:mt-20 pl-4 max-w-3xl 2xl:max-w-4xl">
-          <h2 className="text-4xl capitalize">Highlighted Works</h2>
+          <h2 className="text-4xl capitalize">Coding / Development</h2>
 
           <p>
             These projects represent the early stages of my journey as a web designer and developer.
@@ -72,6 +72,25 @@ function ProjectsPage() {
               </Link>
             </div>
           </div>
+        </section>
+        <section className="h-auto flex flex-col gap-4 mt-10 md:mt-20 lg:mt-30 xl:mt-40 xl:mb-40 pl-4">
+          <h2 className="text-4xl capitalize text-center">Website Design</h2>
+
+          <div className="flex items-center justify-center">
+            <img
+              src="/projects/website-design/sasuke-fukuhara.webp"
+              alt="Sasuke Fukuhara Hair Stylist Portfolio"
+              className="w-lg h-auto my-10 rounded-lg shadow-lg"
+            />
+          </div>
+          <Link to="https://www.sasukefukuhara.online/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline text-center"
+          >https://www.sasukefukuhara.online</Link>
+          <p className="text-center max-w-3xl 2xl:max-w-4xl">
+            Kuya Mage often struggled to showcase his work to clients. This website was created to display his photos clearly, provide pricing information, and offer an easy way for potential clients to get in touch.
+          </p>
         </section>
       </article >
     </>
