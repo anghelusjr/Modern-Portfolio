@@ -99,6 +99,9 @@ function ProjectsPage() {
             className="w-screen h-auto my-10"
           />
         </div>
+         <p className="text-center max-w-3xl 2xl:max-w-4xl">
+          This project is a portfolio recreation inspired by an internal company website. The original site was built in Duda, but for this portfolio, all content has been replaced with stock images, placeholder text, and dummy data. No client information, pr oprietary data, or brand materials are included.
+        </p>
         <div className="flex items-center justify-center">
           <img
             src="/projects/website-design/wholepage.webp"
@@ -106,9 +109,7 @@ function ProjectsPage() {
             className="w-4xl h-auto my-10 rounded-lg shadow-lg"
           />
         </div>
-        <p className="text-center max-w-3xl 2xl:max-w-4xl">
-          This project is a portfolio recreation inspired by an internal company website. The original site was built in Duda, but for this portfolio, all content has been replaced with stock images, placeholder text, and dummy data. No client information, pr oprietary data, or brand materials are included.
-        </p>
+       
       </article >
     </>
   );
