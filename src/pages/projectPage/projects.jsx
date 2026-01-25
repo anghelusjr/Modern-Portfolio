@@ -96,7 +96,7 @@ function ProjectsPage() {
           <img
             src="/projects/website-design/website.webp"
             alt="Internal Mock Design"
-            className="w-screen h-auto my-10 rounded-lg shadow-lg"
+            className="w-screen h-auto my-10"
           />
         </div>
         <div className="flex items-center justify-center">
