@@ -92,6 +92,23 @@ function ProjectsPage() {
             Kuya Mage often struggled to showcase his work to clients. This website was created to display his photos clearly, provide pricing information, and offer an easy way for potential clients to get in touch.
           </p>
         </section>
+        <div className="flex items-center justify-center">
+          <img
+            src="/projects/website-design/website.webp"
+            alt="Internal Mock Design"
+            className="w-screen h-auto my-10 rounded-lg shadow-lg"
+          />
+        </div>
+        <div className="flex items-center justify-center">
+          <img
+            src="/projects/website-design/wholepage.webp"
+            alt="Internal Wholepage - Mock Design"
+            className="w-4xl h-auto my-10 rounded-lg shadow-lg"
+          />
+        </div>
+        <p className="text-center max-w-3xl 2xl:max-w-4xl">
+          This project is a portfolio recreation inspired by an internal company website. The original site was built in Duda, but for this portfolio, all content has been replaced with stock images, placeholder text, and dummy data. No client information, pr oprietary data, or brand materials are included.
+        </p>
       </article >
     </>
   );
