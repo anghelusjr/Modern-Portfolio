@@ -1,54 +1,54 @@
-import html5 from "../../../assets/icons/html5-plain.svg"
-import css3 from "../../../assets/icons/css3-plain.svg"
-import javascript from "../../../assets/icons/javascript-plain.svg"
 import { projectData } from "./projectData.jsx"
-
 
 export function ProjectCard() {
   return (
     <>
       {projectData.map((project, index) => {
         return (
-          <div key={index} className="w-full max-w-md h-auto p-4 border rounded-lg 
-            bg-gradient-to-br from-white to-gray-50 bg-clip-border pb-10
-            shadow-lg hover:shadow-xl transition-all duration-400 hover:-translate-y-2 cursor-pointer">
-            <div className="w-full h-80 overflow-hidden">
-              <img
-                className="w-full shadow-md"
-                src={project.projectImage}
-                alt="Card Project show off skills expertise"
-                loading="lazy" />
+          <a
+            key={index}
+            href={project.projectLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full max-w-md h-full"
+          >
+            <div
+              className="h-full flex flex-col p-4 border rounded-lg 
+              bg-gradient-to-br from-white to-gray-50 pb-6
+              shadow-lg hover:shadow-xl transition-all duration-300 
+              hover:-translate-y-2 hover:scale-[1.02] cursor-pointer"
+            >
+              {/* IMAGE */}
+              <div className="w-full h-80 overflow-hidden rounded-md">
+                <img
+                  className="w-full h-full object-cover shadow-md"
+                  src={project.projectImage}
+                  alt={project.projectHeading}
+                  loading="lazy"
+                />
+              </div>
+
+              {/* CONTENT */}
+              <div className="flex flex-col flex-1">
+                <h3 className="text-gray-700 font-semibold text-2xl pt-6">
+                  {project.projectHeading}
+                </h3>
+
+                <p className="text-base leading-7 text-gray-600 pt-2 flex-1">
+                  {project.projectDescription}
+                </p>
+
+                {/* CTA */}
+                <div className="pt-6 mt-auto">
+                  <span className="inline-block text-sm font-medium text-black border-b border-black hover:opacity-70 transition">
+                    Visit Website →
+                  </span>
+                </div>
+              </div>
             </div>
-            <div className="overflow-hidden">
-              <h3 className="text-gray-600 font-medium text-2xl pt-6">
-                {project.projectHeading}
-              </h3>
-              <p className="text-lg leading-7 text-gray-800">
-                {project.projectDescription}
-              </p>
-              {/* <div
-                className="xl:max-w-3xl flex pt-6 gap-4 xl:gap-4">
-                <span className=" h-6 w-6 transition-all duration-400 hover:-translate-y-2">
-                  <img
-                    src={html5}
-                    alt="skeleton of the website" />
-                </span>
-                <span className="h-6 w-6 transition-all duration-400 hover:-translate-y-2">
-                  <img
-                    src={css3}
-                    alt="css3 for styling website." />
-                </span>
-                <span className="h-6 w-6 transition-all duration-400 hover:-translate-y-2">
-                  <img
-                    src={javascript}
-                    alt="interactive website" />
-                </span>
-              </div> */}
-            </div>
-          </div>
+          </a>
         )
       })}
-
     </>
   )
 }
