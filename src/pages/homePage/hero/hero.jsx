@@ -2,6 +2,8 @@ import greetingRobot from '../../../assets/greeting-robot.webp';
 import { motion } from "motion/react";
 import { PrimaryButton } from '../../../components/buttonVariant/buttons';
 import { FlexContainer } from '../../../components/layout/FlexContainer';
+import RobotSpline from '../../../components/robot/RobotSpline';
+
 
 export function Hero() {
   return (
@@ -11,14 +13,15 @@ export function Hero() {
         flex flex-col items-center justify-center z-50 snap-center snap-always lg:pl-15 xl:pl-60
         overflow-hidden pt-50 xl:pt-20
         ">
-        <motion.img
+        <RobotSpline />
+        {/* <motion.img
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
           className="w-40 sm:w-50 mr-16 sm:mr-15 -m-8 sm:-m-15"
           draggable="false"
           src={greetingRobot}
-          alt="greeting robot" />
+          alt="greeting robot" /> */}
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
