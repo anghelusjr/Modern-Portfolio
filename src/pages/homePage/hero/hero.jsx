@@ -2,7 +2,7 @@ import greetingRobot from '../../../assets/greeting-robot.webp';
 import { motion } from "motion/react";
 import { PrimaryButton } from '../../../components/buttonVariant/buttons';
 import { FlexContainer } from '../../../components/layout/FlexContainer';
-import RobotSpline from '../../../components/robot/RobotSpline';
+
 
 
 export function Hero() {
@@ -13,7 +13,7 @@ export function Hero() {
         flex flex-col items-center justify-center z-50 snap-center snap-always lg:pl-15 xl:pl-60
         overflow-hidden pt-50 xl:pt-20
         ">
-        <RobotSpline />
+        <iframe src='https://my.spline.design/genkubgreetingrobot-3NvOMQQZyhFSl30DrDSSfiYr/' frameborder='0' width='100%' height='100%'></iframe>
         {/* <motion.img
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
