@@ -15,6 +15,14 @@ function BlogsPage() {
         <h1 className="text-5xl capitalize p-6  bg-gray-800 rounded-3xl text-gray-100 2xl:px-20">
           Recent Blogs
         </h1>
+
+
+        <img
+          src="/duda-certificate.webp"
+          alt="duda certificate"
+          className="w-150 h-auto my-10 rounded-lg shadow-lg"
+        />
+
         <BlogCardPage />
       </article >
     </>

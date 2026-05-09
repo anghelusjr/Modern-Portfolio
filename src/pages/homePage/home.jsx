@@ -10,7 +10,7 @@ function Home() {
     <>
       <header>
         <title>Angel Buenavista | Web Designer & Frontend Developer</title>
-        <meta name="description" content="Welcome to the portfolio of Angel Buenavista, a web designer and frontend developer based in Taguig, Philippines. I create modern, responsive, and user-focused websites that help businesses stand out online." />
+        <meta name="description" content="Angel Buenavista is a web designer and frontend developer in Taguig, Philippines, creating modern, responsive websites for growing businesses online with care." />
       </header>
       <section
         className="h-dvh w-dvw overflow-y-scroll scrollbar-hide 

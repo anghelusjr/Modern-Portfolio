@@ -7,7 +7,7 @@ export const blogData = [
         images: [
             "/angel-photos/angel-designer.webp",
         ],
-        heading: "How My Journey Into Web Design Began",
+        heading: "How My Journey Began",
         description: "My interest in Web Design  started when I explored how websites come together, and I quickly realized I wanted to build those experiences myself. Although I’m still developing my skills, I’ve worked on several projects, helping small businesses and personal brands establish their digital presence while continuing to grow as a designer. "
     },
     {
@@ -26,6 +26,7 @@ export const blogData = [
         images: [
             "/angel-photos/may-certificate.webp",
             "/angel-photos/nov-certificate.webp",
+            "/angel-photos/march-certificate.webp",
         ],
         heading: "Top Designer of the Month Award",
         description: "I was honored to receive the Top Designer of the Month award at my workplace. This recognition reflects my dedication to delivering high-quality designs and my commitment to continuous improvement in my craft."
