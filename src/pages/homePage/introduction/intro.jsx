@@ -38,7 +38,7 @@ export function Introduction() {
                 transition={{ type: "spring", stiffness: 100, delay: 0.8 }}
                 viewport={{ once: true, amount: 0.1 }}
                 className="flex flex-col gap-4 text-xl md:text-xl text-shadow-2xs text-center leading-8 text-gray-700">
-                I design and build websites that look good and are easy to use. I work with WordPress, Duda 2.0, React, and Tailwind CSS to make websites for businesses and personal projects. I focus on creating websites that are fast, responsive, and professional. <br />
+                I’m a Website Designer with 5 years of experience creating professional, user-friendly, and responsive websites for businesses and personal projects. I work with WordPress, Duda 2.0, React, and Tailwind CSS to build clean, modern websites that look great across devices and provide a smooth user experience. I focus on thoughtful design, usability, and performance, with SEO-friendly foundations to help businesses establish a strong online presence. <br />
               </motion.p>
               <motion.div
                 initial={{ opacity: 0 }}

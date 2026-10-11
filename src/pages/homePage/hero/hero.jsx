@@ -13,15 +13,15 @@ export function Hero() {
         flex flex-col items-center justify-center z-50 snap-center snap-always lg:pl-15 xl:pl-60
         overflow-hidden pt-50 xl:pt-20
         ">
-        <iframe src='https://my.spline.design/genkubgreetingrobot-3NvOMQQZyhFSl30DrDSSfiYr/' frameborder='0' width='100%' height='100%'></iframe>
-        {/* <motion.img
+        {/* <iframe src='https://my.spline.design/genkubgreetingrobot-3NvOMQQZyhFSl30DrDSSfiYr/' frameBorder="0" width='100%' height='100%'></iframe> */}
+        <motion.img
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
           className="w-40 sm:w-50 mr-16 sm:mr-15 -m-8 sm:-m-15"
           draggable="false"
           src={greetingRobot}
-          alt="greeting robot" /> */}
+          alt="greeting robot" />
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
