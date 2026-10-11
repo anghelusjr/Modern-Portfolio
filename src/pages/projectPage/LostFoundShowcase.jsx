@@ -4,84 +4,84 @@ const screenshots = [
   {
     title: "Login System",
     category: "Authentication",
-    image: "login.png",
+    image: "login.PNG",
     description:
       "A login interface that allows authorized administrators, staff, and students to access the system based on their assigned roles.",
   },
   {
     title: "Account Creation",
     category: "Authentication",
-    image: "account-creation.png",
+    image: "account-creation.PNG",
     description:
       "An account management interface for creating user accounts and organizing student and staff information.",
   },
   {
     title: "Dashboard Overview",
     category: "Dashboard",
-    image: "dashboard-overview.png",
+    image: "dashboard-overview.PNG",
     description:
       "A centralized dashboard that provides access to the system's main functions, including item reports, claims, search, and user management.",
   },
   {
     title: "Upload Images",
     category: "Item Management",
-    image: "upload-image.png",
+    image: "upload-image.PNG",
     description:
       "An image upload feature for managing item photos that can be used when reporting lost or found belongings.",
   },
   {
     title: "Sort and Filter Items",
     category: "Item Management",
-    image: "sorting.png",
+    image: "sorting.PNG",
     description:
       "A sorting and filtering interface for organizing item records by category and status, making records easier to find.",
   },
   {
     title: "Claim Reports",
     category: "Claims",
-    image: "claim-reports.png",
+    image: "claim-reports.PNG",
     description:
       "A claim management interface for reviewing requests and ownership proof before processing claimed items.",
   },
   {
     title: "Staff Search",
     category: "Staff",
-    image: "staff-search.png",
+    image: "staff-search.PNG",
     description:
       "A staff search interface for locating item records and helping users check information about lost or found belongings.",
   },
   {
     title: "Staff Found Items",
     category: "Staff",
-    image: "staff-found-items.png",
+    image: "staff-found-items.PNG",
     description:
       "A staff interface for viewing and managing reports of items that have been found and submitted to the system.",
   },
   {
     title: "Staff Lost Items",
     category: "Staff",
-    image: "staff-lost-items.png",
+    image: "staff-lost-items.PNG",
     description:
       "A staff interface for reviewing lost-item reports and helping maintain organized records of missing belongings.",
   },
   {
     title: "Staff View All Items",
     category: "Staff",
-    image: "staff-view-all-items.png",
+    image: "staff-view-all-items.PNG",
     description:
       "A consolidated view of item records that helps staff browse and track lost, found, and other recorded items.",
   },
   {
     title: "Admin Found Items",
     category: "Administration",
-    image: "admin-found-items.png",
+    image: "admin-found-items.PNG",
     description:
       "An administrative interface for overseeing found-item records and managing their status within the system.",
   },
   {
     title: "Admin Lost Items",
     category: "Administration",
-    image: "admin-lost-items.png",
+    image: "admin-lost-items.PNG",
     description:
       "An administrative interface for monitoring lost-item reports and maintaining the system's lost-item records.",
   },
