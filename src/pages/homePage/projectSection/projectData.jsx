@@ -18,7 +18,7 @@ export const projectData = [
         projectDescription: 'Designed to display Kuya Mage’s work clearly and make client inquiries easy, built with React and styled with Tailwind CSS.',
         projectLink: "https://www.sasukefukuhara.online/"
     },
-        {
+    {
         projectHeading: 'Visit Jeric Bulaga Graphic Sign',
         projectImage: '/projects/website-design/graphicatorsign.webp',
         projectDescription: 'Designs business signage, tarpaulins, custom stickers, and vehicle graphics for businesses, private vehicles, and public transportation.',
@@ -29,7 +29,14 @@ export const projectData = [
         projectImage: '/projects/website-design/main-visual.webp',
         projectDescription: 'Design inspired by an internal company website and recreated in Duda 2.0 for portfolio purposes using stock images and placeholder content. No client or proprietary data was used.',
         projectLink: "/projects"
+    },
+    {
+        projectHeading: 'Lost & Found Management System',
+        projectImage: '/projects/website-design/login.webp',
+        projectDescription: 'A web-based system for reporting lost and found items, searching belongings, and managing claims efficiently.',
+        projectLink: "/projects"
     }
     
-    
+
+
 ]

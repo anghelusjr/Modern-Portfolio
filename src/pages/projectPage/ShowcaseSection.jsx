@@ -118,12 +118,12 @@ const LANGS = {
 const PAGE = 24;
 
 const PLACEHOLDERS = {
-  italy: "/placeholder1.jpg",
-  france: "/placeholder2.jpg",
-  spain: "/placeholder3.jpg",
-  portugal: "/placeholder4.jpg",
-  english: "/placeholder5.jpg",
-  other: "/placeholder6.jpg",
+  italy: "/placeholder1.webp",
+  france: "/placeholder2.webp",
+  spain: "/placeholder3.webp",
+  portugal: "/placeholder4.webp",
+  english: "/placeholder5.webp",
+  other: "/placeholder6.webp",
 };
 
 function SiteCard({ site }) {
