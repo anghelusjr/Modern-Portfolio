@@ -18,6 +18,12 @@ export const projectData = [
         projectDescription: 'Designed to display Kuya Mage’s work clearly and make client inquiries easy, built with React and styled with Tailwind CSS.',
         projectLink: "https://www.sasukefukuhara.online/"
     },
+        {
+        projectHeading: 'Visit Jeric Bulaga Graphic Sign',
+        projectImage: '/projects/website-design/graphicatorsign.webp',
+        projectDescription: 'Designs business signage, tarpaulins, custom stickers, and vehicle graphics for businesses, private vehicles, and public transportation.',
+        projectLink: "https://graphicatorsign.online//"
+    },
     {
         projectHeading: 'Internal Layout Mock',
         projectImage: '/projects/website-design/main-visual.webp',

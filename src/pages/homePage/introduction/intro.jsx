@@ -46,8 +46,8 @@ export function Introduction() {
                 transition={{ type: "spring", stiffness: 100, delay: 0.8 }}
                 className="flex flex-col items-center justify-center xl:-ml-10 gap-5 mt-10 xl:mt-5">
                 <a
-                  href="/Angel-CV.pdf"
-                  download="Angel-CV.pdf"
+                  href="/Angel-buenavista_CV.pdf"
+                  download="Angel-buenavista_CV.pdf"
                   className="px-6 py-2 bg-gray-800 w-50 cursor-pointer text-gray-200 rounded-lg xl:mt-5 text-center hover:bg-gray-900 transition-all duration-300"
                 >
                   Download CV

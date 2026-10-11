@@ -14,6 +14,8 @@ export function ProjectSection() {
           <ProjectCard />
         </div>
         <Link to="/projects" className="text-white w-auto h-auto py-3 px-6 bg-gray-600 rounded-md">Check Out my Latest Work</Link>
+
+       
       </section>
     </>
   )

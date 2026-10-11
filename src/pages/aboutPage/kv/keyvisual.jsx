@@ -39,7 +39,7 @@ export function KeyVisual() {
                 xl:max-w-none
                 ">
                   <p className='text-3xl font-bold text-gray-700'>Web Desginer</p>
-                  <p className='text-xl xl:text-2xl font-bold text-gray-700'>4 years</p>
+                  <p className='text-xl xl:text-2xl font-bold text-gray-700'>5 years</p>
                 </div>
                 <div className="flex flex-col w-full h-full xl:h-40 max-w-sm 
                 items-center justify-center grow basis-30 bg-gray-200 rounded-2xl
@@ -66,8 +66,8 @@ export function KeyVisual() {
               xl:w-100
             ">
               <div className="flex flex-col gap-10 justify-around
-              items-center xl:grow-3 w-full bg-gray-100 rounded-2xl
-               bg-stone-300 py-10 px-4 max-w-md sm:ml-4
+              items-center xl:grow-3 w-full  rounded-2xl
+               bg-gray-200 py-10 px-4 max-w-md sm:ml-4
               ">
                 <h3 className='text-2xl font-medium text-gray-800'>
                   Skills & Expertise
@@ -106,7 +106,7 @@ export function KeyVisual() {
                 </div>
               </div>
               <div className="flex flex-col gap-10 max-w-md justify-around sm:justify-center
-              items-center w-full rounded-2xl xl:p-4 bg-stone-300 py-10 px-4 h-full sm:mr-4 xl:-mr-3
+              items-center w-full rounded-2xl xl:p-4 bg-gray-200 py-10 px-4 h-full sm:mr-4 xl:-mr-3
               ">
                 <h3 className='text-2xl font-medium text-gray-800'>
                   Related Tools
