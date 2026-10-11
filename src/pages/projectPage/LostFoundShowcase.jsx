@@ -155,7 +155,7 @@ export default function LostFoundShowcase() {
               >
                 <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl bg-gray-200">
                   <img
-                    src={`../../../public/projects/lost-and-found/${item.image}`}
+                    src={`/projects/lost-and-found/${item.image}`}
                     alt={`${item.title} screenshot`}
                     loading="lazy"
                     className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
@@ -242,7 +242,7 @@ export default function LostFoundShowcase() {
 
             <div className="flex max-h-[75vh] items-center justify-center overflow-hidden rounded-xl bg-gray-200 p-2 sm:p-4">
               <img
-                src={`../../../public/projects/lost-and-found/${selectedImage.image}`}
+                src={`/projects/lost-and-found/${selectedImage.image}`}
                 alt={`${selectedImage.title} enlarged screenshot`}
                 className="max-h-[70vh] max-w-full object-contain"
               />
