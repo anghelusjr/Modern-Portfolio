@@ -153,13 +153,13 @@ function SiteCard({ site }) {
           </div>
         )}
 
-        <span className="absolute left-2 top-2 rounded-sm bg-[#12303A] px-2 py-1 text-xs font-medium text-[#F2C14E]">
+        <span className="absolute left-2 top-2 rounded-sm bg-[#12303A] px-2 py-1 text-xs font-medium text-white">
           {site.lang === "other" ? "OTHER" : site.lang.toUpperCase()}
         </span>
       </div>
 
       <div className="mt-3">
-        <h3 className="truncate font-display text-lg font-semibold leading-snug text-[#12303A] group-hover:underline decoration-[#F2C14E] decoration-2 underline-offset-4">
+        <h3 className="truncate font-display text-lg font-semibold leading-snug text-[#12303A] group-hover:underline decoration-gray-800 decoration-2 underline-offset-4">
           {site.name}
         </h3>
 
@@ -222,7 +222,7 @@ export default function ShowcaseSection() {
           </p>
         </div>
 
-        <div className="mt-6 border-l-2 border-[#F2C14E] pl-4 text-sm leading-relaxed text-[#12303A]/70">
+        <div className="mt-6 border-l-2 border-gray-800 pl-4 text-sm leading-relaxed text-[#12303A]/70">
           <strong className="text-[#12303A]">Disclaimer:</strong>{" "}
           My contribution is limited to website design. I do not own
           the websites, businesses, content, or trademarks displayed
@@ -243,7 +243,7 @@ export default function ShowcaseSection() {
                   aria-pressed={lang === key}
                   onClick={() => updateFilter(setLang, key)}
                   className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#12303A] ${lang === key
-                      ? "bg-[#12303A] text-[#F2C14E]"
+                      ? "bg-[#12303A] text-white"
                       : "text-[#12303A] ring-1 ring-inset ring-[#12303A]/25 hover:bg-[#12303A]/5"
                     }`}
                 >
@@ -286,7 +286,7 @@ export default function ShowcaseSection() {
                 <button
                   type="button"
                   onClick={() => setVisible((value) => value + PAGE)}
-                  className="rounded-md bg-[#12303A] px-5 py-2.5 text-sm font-semibold text-[#F2C14E] transition-colors hover:bg-[#1b4452] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#12303A]"
+                  className="rounded-md bg-[#12303A] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#1b4452] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#12303A]"
                 >
                   Show More
                 </button>
